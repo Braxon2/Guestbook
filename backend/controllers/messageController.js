@@ -3,7 +3,7 @@ const MessageModel = require("../model/Message");
 
 const messageSchema = Joi.object({
   name: Joi.string().trim().min(5).max(100).required().messages({
-    "string.min": "Name must be at least 2 characters long.",
+    "string.min": "Name must be at least 5 characters long.",
     "string.max": "Name cannot exceed 100 characters.",
     "any.required": "Name is required.",
   }),
