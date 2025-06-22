@@ -1,0 +1,17 @@
+.pagination-controls {
+  display: flex;
+  margin-top: 25px;
+  gap: 10px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.pagination-controls span {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.input-container {
+  margin-top: 15px;
+}

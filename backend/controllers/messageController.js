@@ -19,7 +19,7 @@ async function postMessage(req, res, next) {
     const { error, value } = messageSchema.validate(req.body);
 
     if (error) {
-      res.status(400).json({
+      return res.status(400).json({
         status: "error",
         message: error.details[0].message,
       });
