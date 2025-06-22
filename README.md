@@ -1,15 +1,18 @@
 Guestbook Application
-This is a full-stack Guestbook application that allows visitors to view existing messages and leave their own message along with their name. The application is designed with maintainability and scalability in mind, using a clear separation of concerns between the frontend and backend.
+This is a full-stack Guestbook application that allows visitors to view existing messages and leave their own message along with their name.
+The application is designed with maintainability and scalability in mind, using a clear separation of concerns between the frontend and backend.
 
 
 🛠️ Technologies Used
 Frontend
+
 React: A JavaScript library for building user interfaces.
 
 React Router DOM: For declarative routing in React applications.
 
 
 Backend
+
 Node.js: A JavaScript runtime environment.
 
 Express.js: A fast, unopinionated, minimalist web framework for Node.js.
